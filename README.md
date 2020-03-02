@@ -51,6 +51,7 @@ This should complete the setup for this coding exercise.
   1. In the Main class, right-click the main() method and select "Run 'Main'"
   2. This will start the program and open the command line interface in IntelliJ IDEA
   3. A menu will be output to the console, prompting you to enter a selection. The number entered by the user will determine the action taken.
+  
     - Entering '0' will print the menu again
     - Entering '1' will allow the user to add a new action to the library
     - Entering '2' will print all of the actions in the library
