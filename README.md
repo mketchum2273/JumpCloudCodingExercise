@@ -69,3 +69,4 @@ This should complete the setup for this coding exercise.
     - The program could have other classes feeding new actions into the Library
   2. The getStats() method is set up to return an array of all of the JSON serialized strings from the Library. There could be future use cases for a method that takes a String as input and returns only the information for the action that has that string as a key in the Library's Map.
   3. Currently, there's nothing stopping a user from entering an empty string as the name for an action. Validation could be added to address this in particular, but also any other data requirements that are decided upon in the future.
+  4. All of the actions operations are currently handled in memory, which means that the created library no longer exists once the code exits. A future implementation would likely use a database to store the actions added by the user so that they could be queried later.
