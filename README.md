@@ -1,6 +1,6 @@
 # JumpCloudCodingExercise
 
-Setup:
+## Setup:
   - This coding exercise was completed in Java
   - The JDK used was Amazon Corretto 11. The download/installation instructions are as follows:
     1. Go to https://docs.aws.amazon.com/corretto/latest/corretto-11-ug/downloads-list.html
@@ -47,7 +47,7 @@ This should complete the setup for this coding exercise.
 
 
 
-Running the code:
+## Running the code:
   1. In the Main class, right-click the main() method and select "Run 'Main'"
   2. This will start the program and open the command line interface in IntelliJ IDEA
   3. A menu will be output to the console, prompting you to enter a selection. The number entered by the user will determine the action taken.
@@ -60,7 +60,7 @@ Running the code:
   
   
   
-Future Considerations:
+## Future Considerations:
   1. The code currently uses Java's Scanner class to handle the command line operations for adding actions/using the Library methods. Future implementations could take other approaches to submitting actions:
     - There could be a user interface where a user enters the information for actions to be submitted
     - The program could read actions from a file
