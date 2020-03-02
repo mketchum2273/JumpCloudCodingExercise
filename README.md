@@ -5,7 +5,7 @@
   - The JDK used was Amazon Corretto 11. The download/installation instructions are as follows:
     1. Go to https://docs.aws.amazon.com/corretto/latest/corretto-11-ug/downloads-list.html
     2. Choose the msi file (This is Windows-specific...if you are on some other operating system then you'll have to choose that particular download)
-    (Note: While going through the setup wizard, make a note of where Amazon Corretto is being installed on your machine)
+    - (Note: While going through the setup wizard, make a note of where Amazon Corretto is being installed on your machine)
     3. When the wizard opens, click Next --> Next --> Install
     4. Click "Yes" in the dialog the pops up
     5. Click "Finish"
@@ -21,7 +21,7 @@
     9. Under "Project SDK", click New --> JDK
     10. Navigate to the location where Amazon Corretto was installed and select the JDK (should be jdk11.0.4_10 or something similar) and click "OK"
     11. Now that your JDK is set under "Project SDK", click "OK"
-    (Note: Some of the configuration steps below may not be necessary for the successful execution of the code I've provided for this exercise, but they are the steps I went through when originally setting up my IDE and so I thought it best not to omit any of them.)
+    - (Note: Some of the configuration steps below may not be necessary for the successful execution of the code I've provided for this exercise, but they are the steps I went through when originally setting up my IDE and so I thought it best not to omit any of them.)
     12. Click the "Configure" dropdown in the bottom right and select "Settings"
     13. On the left side, click "Editor", "General", and then click Auto Import
     14. Select "Add unambiguous imports on the fly" and "Optimize imports on the fly (for current project)
@@ -58,6 +58,7 @@ This should complete the setup for this coding exercise.
     - Entering '3' will exit the program
   4. The user can enter as many actions as they like and print the results before exiting the program.
   5. To run the unit tests for the project, open the LibraryTest class. Right-click on the class name "LibraryTest" and select "Run 'LibraryTest'"
+  - (Note: When calculating the average time for any given action, I made the decision to round up any fractions to the nearest integer. The instructions for the coding exercise only had examples with integers for the time, so I took that to mean that integer was the desired data type and then made the decision to round up.)
   
   
   
