@@ -30,4 +30,18 @@ Setup:
     17. On the left side, click "Code Folding"
     18. De-select "Imports", "One-line method", "Closures (anonymous classes implementing one method, before Java 8)", and "Generic constructor and method parameters"
     19. Click "OK"
-    
+  - The source code for my project will need to be downloaded from GitHub and imported into IntelliJ IDEA
+  - GSON was used for the serializing/deserializing of JSON strings in this project, so that will need to be added:
+    1. Go to https://mvnrepository.com/artifact/com.google.code.gson/gson/2.8.6
+    2. Click on the JAR file next to "Files" to download
+    3. Once the download is complete, go into IntelliJ IDEA and open the project containing my source code
+    4. At the top, click "File" --> "Project Structure"
+    5. In the window that opens, go to "Libraries" and click on the small plus sign (the tooltip will say "New Project Library")
+    6. Select Java and then navigate to the download of GSON JAR file. Select it and click "OK"
+  - JUnit 4 was used for writing unit tests
+    1. In the same Project Structure window where you just added the GSON JAR, click the same plus sign, but this time select "From Maven"
+    2. Type "junit" in the search box and click the magnifying glass on the right. When results return, select "junit:junit:4.11"
+    3. Click "OK" and then "OK" again
+This should complete the setup for this coding exercise.
+
+
