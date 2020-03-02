@@ -42,6 +42,18 @@ Setup:
     1. In the same Project Structure window where you just added the GSON JAR, click the same plus sign, but this time select "From Maven"
     2. Type "junit" in the search box and click the magnifying glass on the right. When results return, select "junit:junit:4.11"
     3. Click "OK" and then "OK" again
+    
 This should complete the setup for this coding exercise.
 
 
+Running the code:
+  1. In the Main class, right-click the main() method and select "Run 'Main'"
+  2. This will start the program and open the command line interface in IntelliJ IDEA
+  3. A menu will be output to the console, prompting you to enter a selection. The number entered by the user will determine the action taken.
+    - Entering '0' will print the menu again
+    - Entering '1' will allow the user to add a new action to the library
+    - Entering '2' will print all of the actions in the library
+    - Entering '3' will exit the program
+  4. The user can enter as many actions as they like and print the results before exiting the program.
+  5. To run the unit tests for the project, open the LibraryTest class. Right-click on the class name "LibraryTest" and select "Run 'LibraryTest'"
+  
