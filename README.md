@@ -46,6 +46,7 @@ Setup:
 This should complete the setup for this coding exercise.
 
 
+
 Running the code:
   1. In the Main class, right-click the main() method and select "Run 'Main'"
   2. This will start the program and open the command line interface in IntelliJ IDEA
@@ -56,6 +57,8 @@ Running the code:
     - Entering '3' will exit the program
   4. The user can enter as many actions as they like and print the results before exiting the program.
   5. To run the unit tests for the project, open the LibraryTest class. Right-click on the class name "LibraryTest" and select "Run 'LibraryTest'"
+  
+  
   
 Future Considerations:
   1. The code currently uses Java's Scanner class to handle the command line operations for adding actions/using the Library methods. Future implementations could take other approaches to submitting actions:
