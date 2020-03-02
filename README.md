@@ -57,3 +57,10 @@ Running the code:
   4. The user can enter as many actions as they like and print the results before exiting the program.
   5. To run the unit tests for the project, open the LibraryTest class. Right-click on the class name "LibraryTest" and select "Run 'LibraryTest'"
   
+Future Considerations:
+  1. The code currently uses Java's Scanner class to handle the command line operations for adding actions/using the Library methods. Future implementations could take other approaches to submitting actions:
+    - There could be a user interface where a user enters the information for actions to be submitted
+    - The program could read actions from a file
+    - The program could have other classes feeding new actions into the Library
+  2. The getStats() method is set up to return an array of all of the JSON serialized strings from the Library. There could be future use cases for a method that takes a String as input and returns only the information for the action that has that string as a key in the Library's Map.
+  3. Currently, there's nothing stopping a user from entering an empty string as the name for an action. Validation could be added to address this in particular, but also any other data requirements that are decided upon in the future.
